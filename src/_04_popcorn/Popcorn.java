@@ -56,7 +56,7 @@ public class Popcorn {
 
 	public void eat() {
 		if (isCooked) {
-			System.out.println("Popcorn says: Time to eat popcorn!");
+			System.out.println("Popcorn says: Time to eat your"+ this.flavor+ "popcorn!");
 		} else {
 			System.out.println("Don't eat the popcorn. Not all the kernels have popped!");
 		}
